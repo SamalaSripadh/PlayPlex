@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PlayPlex Booking</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Date Time -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header#fh5co-header {
+            position: relative;
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/398/874/541/champions-league-stadium-wallpaper-preview.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff; /* Text color on top of the image */
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header#fh5co-header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired overlay effect */
+            backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+        }
+    </style>
+
+
+	</head>
+	<body>
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="display-t js-fullheight">
+							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+								<h1>Reservation</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<!-- <div class="top-menu"> -->
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center logo-wrap">
+							<div id="fh5co-logo"><a href="index.html">PLAYPLEX<span>.</span></a></div>
+						</div>
+						
+						<div class="col-xs-12 text-center menu-1 menu-wrap">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li class="has-dropdown">
+									<a href="book now.html">Book now</a>
+									<ul class="dropdown">
+										<li><a href="indoor.html">Indoor</a></li>
+										<li><a href="outdoor.html">Outdoor</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			<!-- </div> -->
+		</nav>
+
+	
+
+	
+	<div id="fh5co-reservation-form" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				
+				
+				<div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
+					<form action="#" id="form-wrap">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="name">Booking Name</label>
+								<input type="text" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="many">Duration</label>
+								<select name="many" id="many" class="form-control custom_select">
+									<option value="#">1hr</option>
+									<option value="#">2hrs</option>
+									<option value="#">3hrs</option>
+									<option value="#">4+hrs</option>
+								</select>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="taskdatetime">Date</label>
+								<input type="text" name="task-datetime" id="taskdatetime" class="form-control"/>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<input type="submit" class="btn btn-primary btn-outline btn-lg" value="Go to Payment">
+							</div>
+						</div>
+
+					</form>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+    <footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+		<div class="container">
+			<div class="row row-pb-md">
+				
+				<div class="col-md-2 col-md-push-1 fh5co-widget">
+					<h4>Links</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="book now.html">Book Now</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-md-push-1 fh5co-widget">
+					<h4>Categories</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="indoor.html">Indoor Games</a></li>
+						<li><a href="outdoor.html">Outdoor Games</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-4 col-md-push-1 fh5co-widget">
+					<h4>Contact Information</h4>
+					<ul class="fh5co-footer-links">
+						<li>MLR Institute Of Technology <br>MG-Block</li>
+						<li><a href="tel://7013821705">+91 7013821705</a></li>
+						<li><a href="mailto:somanshudev.netha@gmail.com">somanshudev.netha@gmail.com</a></li>
+						
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://twitter.com/?lang=en"><i class="icon-twitter2"></i></a></li>
+							<li><a href="https://www.facebook.com"><i class="icon-facebook2"></i></a></li>
+							<li><a href="https://www.linkedin.com"><i class="icon-linkedin2"></i></a></li>
+						
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<!-- Date Time -->
+	<script src="js/moment.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.js"></script>
+	
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
